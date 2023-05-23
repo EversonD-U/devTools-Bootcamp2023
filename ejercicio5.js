@@ -1,14 +1,18 @@
+function drawX(tamano) {
+  if (tamano % 2 === 0) {
+    // Asegurarse de que el tamaño sea un número impar
+    tamano--;
+  }
 
-
-function devolverPrimerElemento(array) {
-  // Retornar el primer elemento del arreglo recibido por parámetro.
-  // Tu código:
-  return array[0];
+  for (let i = 0; i < tamano; i++) {
+    let line = "";
+    for (let j = 0; j < tamano; j++) {
+      if (j === i || j === tamano - 1 - i) {
+        line += "*";
+      } else {
+        line += " ";
+      }
+    }
+    console.log(line);
+  }
 }
-
-
-
-console.log(funcion1(2))
-
-
-var arreglo[10,20,30,40]

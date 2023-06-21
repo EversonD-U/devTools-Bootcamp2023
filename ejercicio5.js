@@ -16,3 +16,5 @@ function drawX(tamano) {
     console.log(line);
   }
 }
+
+drawX(5);

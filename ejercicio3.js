@@ -10,7 +10,7 @@ function countNameRepetitions(names) {
     }
   }
 
-  // Convertir la representación de asteriscos en un número
+  // Convertir la cantidad de asteriscos en un número
   for (const name in result) {
     result[name] = result[name].length;
   }

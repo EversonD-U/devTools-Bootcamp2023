@@ -14,5 +14,7 @@ function fizzBuzz (num) {
   }
 }
 
+fizzBuzz(15)
+
 
 // No consegui forma de resumirlo mas por ahora 

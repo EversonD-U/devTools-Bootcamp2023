@@ -16,6 +16,8 @@ function isPalindrome(number) {
   return str === reversedStr;
 }
 
+console.log(next_pal(123));
+
 
 
 console.log("Hello World")

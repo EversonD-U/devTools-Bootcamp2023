@@ -1,6 +1,6 @@
 function drawX(tamano) {
   if (tamano % 2 === 0) {
-    // Asegurarse de que el tamaño sea un número impar
+    // Asegurarse de que el tamaño sea un número impar antes de 
     tamano--;
   }
 

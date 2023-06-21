@@ -13,3 +13,6 @@ function fizzBuzz (num) {
     }
   }
 }
+
+
+// No consegui forma de resumirlo mas por ahora 

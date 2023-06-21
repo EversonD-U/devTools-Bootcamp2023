@@ -15,3 +15,7 @@ function isPalindrome(number) {
   const reversedStr = str.split('').reverse().join('');
   return str === reversedStr;
 }
+
+
+
+console.log("Hello World")
